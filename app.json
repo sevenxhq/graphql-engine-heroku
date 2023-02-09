@@ -16,12 +16,13 @@
   "formation": {
     "web": {
       "quantity": 1
+      "size" : "eco"
     }
   },
   "stack": "container",
   "addons": [
     {
-      "plan": "heroku-postgresql:hobby-dev"
+      "plan": "heroku-postgresql:mini"
     }
   ]
 }
